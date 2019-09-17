@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pages</title>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>page_id</th>
+            <th>status</th>
+            <th>run/stop</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% if user.is_authenticated %}
+          Hi {{ user.username }}!
+
+            {% if pages_list %}
+                {% for page in pages_list %}
+                <tr>
+                    <form method ="post">
+                    {% csrf_token %}
+                    {% if page.run_status == "no" %}
+                        <td><input type="text" name="account_id" value="{{ page.account_id }}"></td>
+                        <td>not running</td>
+                        <td><button type="submit" name ="run_cmnts" value="{{page.account_id}}">Run</button></td>
+                     {% else %}
+                        <td><input type="text" name="account_id" value="{{ page.account_id }}"></td>
+                        <td>actively running</td>
+                        <td><button type="submit" name = "stop_cmnts" value="{{page.account_id}}">Stop</button></td>
+                        </form>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            {% endif %}
+        {% else %}
+          <p>You are not logged in</p>
+          <a href="{% url 'login' %}">login</a>
+        {% endif %}
+        </tbody>
+    </table>
+</body>
+</html>

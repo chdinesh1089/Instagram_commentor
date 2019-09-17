@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f95170be-a0d7-40e4-878f-b39dae9f7ec7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Insta_Comment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insta_Comment/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insta_Comment/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insta_Comment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Insta_Comment/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0002_auto_20190914_1007.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0003_auto_20190916_1554.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0004_page_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0005_auto_20190917_1732.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0006_auto_20190917_1735.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0007_auto_20190917_1754.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0008_auto_20190917_1759.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0009_page_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0010_auto_20190917_1810.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/0011_auto_20190917_1835.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/python_scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/python_scripts/comments_bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/python_scripts/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/python_scripts/post_id.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/python_scripts/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/templates/commentbot/monitoring.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commentbot/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qp3iowApHk9OeXyJGirmAoPlnd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Insta_Comment" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@68e6e651" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f95170be-a0d7-40e4-878f-b39dae9f7ec7" name="Default Changelist" comment="" />
+      <created>1568453839847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568453839847</updated>
+      <workItem from="1568453856333" duration="21285000" />
+      <workItem from="1568648917957" duration="10837000" />
+      <workItem from="1568722956896" duration="11675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
