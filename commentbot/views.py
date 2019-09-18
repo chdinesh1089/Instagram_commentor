@@ -3,6 +3,7 @@ from .models import Page
 from .tasks import run_monitoring
 from celery import uuid
 from Insta_Comment.celery import app
+from django.contrib.auth.models import User
 from django.core import serializers
 from .python_scripts.comments_bot import start_monitoring
 # Create your views here.
@@ -43,5 +44,14 @@ def monitoring(request):
         account_object.run_status = "no"
         account_object.save()
         #run_monitoring.apply_async(args=[account_id],task_id=task_id)
+    elif(request.method=='POST' and 'delete_row' in request.POST):
+        rqst = request.POST
+        account_id = rqst['delete_row']
+        account_object = Page.objects.get(account_id=account_id)
+        account_object.delete()
+    elif(request.method=='POST' and 'add_new' in request.POST):
+        #new_page=Page.objects.create()
+        current_user = User.objects.get(username=current_user)
+        current_user.page_set.create()
     return render(request, 'commentbot/monitoring.html', context)
 
