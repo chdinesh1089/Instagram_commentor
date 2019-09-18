@@ -1,5 +1,5 @@
 from django.shortcuts import redirect
 
 def redirect_view(request):
-    response = redirect('/accounts/login')
+    response = redirect('/login')
     return response
